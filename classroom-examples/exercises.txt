@@ -1,0 +1,92 @@
+
+
+Exercise - 1
+
+1. Create a list of numbers with integers and floats.
+2. Remove the smallest number from the list.
+3. Print if 9 is in the list.
+
+
+a = [1,4,7,5,3.4,2.3,-2.3,0,2]
+a.remove(min(a))
+print(9 in a)
+
+Exercise - 2
+
+1. Create a list of squares of odd numbers between 1 and 100
+
+a=[]
+for x in range(1,100,2):
+	a.append(x**2)
+print(a)
+
+
+
+
+
+
+Exercise - 3
+
+1. Create a dictionary with odd numbers between 1 and 100
+as keys and their square as values.
+
+
+{1:1,3:9,5:25,....}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+d = {}
+for x in range(1,100,2):
+	d[x] = x**2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Exercise - 4
+
+1. Create a list of 1000 random numbers (Hint look at guessing game)
+2. Print how many times each number is present in the list.
+3. Print all numbers which repeated more than 5 times.
+
+Exercise - 5
+
+Write a function to check if a string is a palindrome.
+(what is a palindrome? A word that reads the same in both directions ex: "aha","malayalam")
+
+Write a function to print the number of lines in a file.
+
+Write a function to print the factorial of a number.
+
+Write a function to print all the indexes of a char in a string.
+
+banana,a
+1,3,5
+
+
+
+
+
+
